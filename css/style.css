@@ -13,10 +13,11 @@ body{
     
 }
 
+
 .container{
      padding: 0 15px;
     width:100%;
-width: 1200px;
+max-width: 1200px;
 margin: 0px 0px 0px 0px;
 
 }
@@ -25,25 +26,20 @@ margin: 0px 0px 0px 0px;
 
 
 .header-container{
-   max-width: width:1200px;
  
   background-color: var(--brand-color-czcionka3);
      display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1200px;
-margin: 0 auto;
+   margin: 0 auto;
 height: 80px;
 
 }
 .header-container2{
-   max-width: width:1200px;
- 
   background-color: var(--brand-color-czcionka3);
      display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1200px;
 margin: 0 auto;
 height: 80px;
 border-width: 1px;
@@ -274,7 +270,7 @@ footer{
 flex-direction: row;
 list-style: none;
 flex-grow: 1;
-gap:calc((100% - 4 * 30%) / 4);
+gap:calc((100% - 4 * 20%) / 4);
 }
     
   .head211{
