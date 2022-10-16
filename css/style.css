@@ -5,6 +5,7 @@
     --brand-color-czcionka3:#FFFFFF;
     --brand-color-czcionka4:#000000; 
     --brand-color-background:#2F303A;
+    --brand-color-background2:#F5F4FA;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -55,7 +56,6 @@ height: 80px;
 
 
 
-
 .button2{
         font-size: 16px;
         font-weight: 700;
@@ -70,14 +70,23 @@ height: 80px;
     justify-content: center;
  
       }
-
+.button11{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+gap:calc((100% - 5 * 10%) / 35);
+}
      .button1{
+    
         font-size: 16px;
         font-weight: 500;
          line-height: 1.625;  
             border: 0px;
+            padding: 6px 22px 6px 22px;
     font-family: inherit;  
     cursor: pointer;
+    justify-content: center;
+
 
               }
              
@@ -186,6 +195,8 @@ footer{
         font-size: 16px;
         line-height: 1.19;
         letter-spacing: 0.03em;
+        text-align: center;
+        
 }
 .head32{
         font-size: 18px;
@@ -225,6 +236,7 @@ footer{
         font-weight: 500;
         line-height: 1.19; 
         letter-spacing: 0.03em;
+        text-align: center;
 }
 
 
@@ -240,14 +252,46 @@ footer{
     text-align: center;
 }
 
-.head1000{
+.head221{
      display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+flex-direction: row;
+list-style: none;
+flex-grow: 1;
+gap:calc((100% - 4 * 30%) / 4);
 }
     
-    
+  .head211{
+     display: flex;
+flex-direction: row;
+list-style: none;
+flex-grow: 1;
+gap:calc((100% - 3 * 32%) / 3);
+}  
+
+ .head231{
+     display: flex;
+flex-direction: row;
+list-style: none;
+flex-grow: 1;
+gap:calc((100% - 3 * 32%) / 3);
+align-items: center;
+}  
+
+.head2311{
+    background-color: var(--brand-color-background2);
+    margin:0px 0px 0px 0px;
+
 }
+
+.head321{
+     display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+list-style: none;
+flex-grow: 1;
+gap:calc((100% - 9 * 10%) / 9);
+}
+
 .link1:hover,
 .link2:hover,
 .link3:hover,
@@ -294,6 +338,7 @@ color:var(--brand-color);
 ul{
     list-style-type: none;
 }
+
 .head22,
 .head11{
 visibility: hidden;
