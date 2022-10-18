@@ -10,18 +10,23 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--brand-color);
-    
-}
+ }
 
+ *, *::after, *::before { margin: 0; padding: 0; }
 
 .container{
      padding: 0 15px;
     width:100%;
 max-width: 1200px;
-margin: 0px 0px 0px 0px;
+margin: 0 auto;
 
 }
 
+.naglowek{
+ display: flex;
+    align-items: center;
+
+}
 
 .header-container{
  
@@ -50,14 +55,14 @@ border-color: #ECECEC;
 .naglowek1{
     display: flex;
   justify-content: space-between;
-  margin:32px 0px 32px 0px;
+  
 
 
 }
 .naglowek2{
     display: flex;
    justify-content: space-between;
-     margin:32px 0px 32px 0px;  
+   
 
 
 }
@@ -105,11 +110,10 @@ padding-top: 94px;
 .solutions {
     color:white;
     background-color: var(--brand-color-background);
-    height: 600px;
-    width: 1200px;
     display:flex;
     flex-direction: column;
     justify-content: center;
+    padding: 200px 0;
     
 }
 
@@ -132,11 +136,11 @@ footer{
 .link1{
     font-family: "Raleway";
     font-weight: 700;
-    font: size 26px;
+    font-size 26px;
     line-height: 1.19;
     Line height: 100%;
     letter-spacing: 0.03em;
-       margin:24px 93px 25px 215px; 
+     margin-right: 93px ;
 }
 
 .link3{
@@ -145,7 +149,7 @@ footer{
     font-weight: 500;
     line-height: 1;
     letter-spacing: 0.02em;
-    margin:0px 0px 0px 46px;
+ 
 }
 .link2{
     color:var(--brand-color);
@@ -276,7 +280,7 @@ gap:calc((100% - 4 * 20%) / 4);
 flex-direction: row;
 list-style: none;
 flex-grow: 1;
-gap:calc((100% - 3 * 32%) / 3);
+gap:calc((100% - 3 * 52px) / 3);
 }  
 
  .head231{
@@ -284,7 +288,7 @@ gap:calc((100% - 3 * 32%) / 3);
 flex-direction: row;
 list-style: none;
 flex-grow: 1;
-gap:calc((100% - 3 * 32%) / 3);
+gap:calc((100% - 3 * 32px) / 3);
 align-items: center;
 }  
 
@@ -300,7 +304,7 @@ flex-direction: row;
 flex-wrap: wrap;
 list-style: none;
 flex-grow: 1;
-gap:calc((100% - 9 * 10%) / 9);
+gap:calc((100% - 9 * 10px) / 9);
 }
 
 .link1:hover,
